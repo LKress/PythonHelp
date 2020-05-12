@@ -61,8 +61,5 @@ print(vars(object))
 
 gibt folgendes aus:
 ```
-
-
-gibt folgendes aus:
-'''
 {'b': 5, 'a': 5}
+
