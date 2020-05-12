@@ -59,7 +59,26 @@ object = Test_vars()
 print(vars(object))
 ```
 
-gibt folgendes aus:
+returns:
 ```
 {'b': 5, 'a': 5}
+```
+
+### enumerate() methode
+Allows to loop over something with an counter
+E.g.:
+```python
+for counter, value in enumerate(something_iterable):
+   print(counter, value)
+```
+This will return the index and the value of the iterable object.
+It's possible to set a starting index. Just insert a second argument to enumerate (int).
+
+
+
+
+
+
+
+
 
