@@ -1,7 +1,7 @@
 # PythonHelp
-Things i didn't knew about Python
+Helpful things in python
 ---
-Tilde operator (~) 
+###Tilde operator (~) 
 inverts things
 E.g.: 
 ```python
@@ -42,3 +42,24 @@ df will look:
    7    2    5    "B"
    1    4    2    "B"
 ```
+
+###vars() method
+returns a dict of an object
+E.g.:
+```python
+class Test_vars:
+   def __init__(self, a = 3, b = 5):+
+      self.a = a
+      self.b = b
+      
+object = Test_vars()
+print(vars(object))
+```
+
+gibt folgendes aus:
+```
+
+
+gibt folgendes aus:
+'''
+{'b': 5, 'a': 5}
