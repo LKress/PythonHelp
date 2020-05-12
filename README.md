@@ -2,7 +2,7 @@
 Helpful things in python
 ---
 
-###Tilde operator (~) 
+### Tilde operator (~) 
 
 inverts things
 E.g.: 
@@ -45,7 +45,7 @@ df will look:
    1    4    2    "B"
 ```
 
-###vars() method
+### vars() method
 
 returns a dict of an object
 E.g.:
