@@ -1,7 +1,9 @@
 # PythonHelp
 Helpful things in python
 ---
+
 ###Tilde operator (~) 
+
 inverts things
 E.g.: 
 ```python
@@ -44,6 +46,7 @@ df will look:
 ```
 
 ###vars() method
+
 returns a dict of an object
 E.g.:
 ```python
