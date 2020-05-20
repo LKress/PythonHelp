@@ -85,7 +85,7 @@ print(erg)
 returns 2.
 
 Also good for:
-```pyhton
+```python
 erg = ( 5 > 6 ) + 1
 print(erg)
 ```
