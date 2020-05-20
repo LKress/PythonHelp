@@ -74,10 +74,22 @@ for counter, value in enumerate(something_iterable):
 This will return the index and the value of the iterable object.
 It's possible to set a starting index. Just insert a second argument to enumerate (int).
 
+### Calculation with boolean value
+Its allowed to add a number to a boolean value.
+`False` stands for 0 `True` for 1:
+E.g.:
+```python
+erg = True + 1
+print(erg)
+``` 
+returns 2.
 
-
-
-
+Also good for:
+```pyhton
+erg = ( 5 > 6 ) + 1
+print(erg)
+```
+will return 1.
 
 
 
