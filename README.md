@@ -92,5 +92,14 @@ print(erg)
 will return 1.
 
 
+### Method parametres
+In the header of a method the parametres are defined. Their type or default parameter can be defined.
+
+E.g.:
+```python
+def method(param1, param2: type, param3=DefaultValue):
+``` 
+
+
 
 
