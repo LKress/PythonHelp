@@ -100,6 +100,41 @@ E.g.:
 def method(param1, param2: type, param3=DefaultValue):
 ``` 
 
+### Accessing dictionary data
+The method items() returns the items (key and value tuples) stored inside the dictionary.
+```python
+dictionary = { 'key1' : 1, 'key2' : 2, 'key3' : 3 }
+print(dictionary.items())
+```
+will return:
+```
+dict_items([('key1',1), ('key2',2), ('key3',3)]) 
+```
 
+The method values() returns the values stored inside the dictionary.
+```python
+dictionary = { 'key1' : 1, 'key2' : 2, 'key3' : 3 }
+print(dictionary.values())
+```
+will return:
+```
+dict_values([1, 2, 3]) 
+```
+
+To access the values one after another use a for loop:
+```python
+for key, value in dictionary.items():
+   print(key)
+   print(value)
+```
+will return:
+```
+key1
+1
+key2
+2
+key3
+3
+```
 
 
