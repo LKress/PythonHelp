@@ -137,4 +137,19 @@ key3
 3
 ```
 
+Style tips
+---
 
+If a method has more than two arguments define them one each column. 
+E.g.:
+
+```python
+def method(
+   arg1,
+   arg2,
+   arg3: int,
+   arg4 = None,
+   arg5: int = 1,
+):
+   <method body>
+```
