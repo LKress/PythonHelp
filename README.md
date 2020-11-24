@@ -64,7 +64,7 @@ returns:
 {'b': 5, 'a': 3}
 ```
 
-### enumerate() methode
+### enumerate() method
 Allows to loop over something with an counter
 E.g.:
 ```python
