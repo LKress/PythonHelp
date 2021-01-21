@@ -5,7 +5,9 @@ One condition:
 ```python
 df.loc[df['column1'] > 6]
 ```
-More conditions (mind the brackets):
+Multiple conditions (mind the brackets arround the conditions):
 ```python
-df.loc[(df['column1'] > 6) & (df['column2'] < 6)]
+df.loc[(df['column1'] > 6) & 
+        (df['column2'] < 6) &
+        (df['column3'].str.match("test")]
 ```
