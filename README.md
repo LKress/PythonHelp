@@ -1,6 +1,6 @@
 # PythonHelp
 
-Things I didn't know or find interesting. The same for pandas can be found here: https://github.com/LKress/PythonHelp/pandas.md
+Things I didn't know or find interesting. The same for pandas can be found here: https://github.com/LKress/PythonHelp/blob/master/pandas.md
 
 ### Tilde operator (~) 
 
