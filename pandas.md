@@ -18,3 +18,6 @@ The lambda gets the first occurence of this regex and takes the first char ([0])
 repl = lambda m: m.group(0)[0] + "/"
 data["col_name"] = data["col_name"].str.replace(r'[0-9]-', repl)
 ```
+
+### Check for NaNs in column
+Currently for me `value != value` works fine (it has to be provided, that a NaN value is no "NA" string).
